@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mybus-domain-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mybus-domain-service
+  template:
+    metadata:
+      labels:
+        app: mybus-domain-service
+    spec:
+      containers:
+      - name: mybus-service
+        image: ankammapallapu/mybus-domain-service:latest
