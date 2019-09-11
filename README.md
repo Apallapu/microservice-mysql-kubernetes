@@ -51,7 +51,7 @@ docker push ankammapallapu/mybus-domain-service:latest
 
 6. install the minikube and kubectl command
 
-create the pod and service yaml file in spring boot project
+create the pod and service yaml file for spring boot project
 ==========================================================
 
 pod.deploy.yaml
