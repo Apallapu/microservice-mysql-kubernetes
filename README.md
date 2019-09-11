@@ -77,7 +77,7 @@ spec:
 
 example of service.yaml file
 ============================
-service.yaml
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -93,8 +93,7 @@ spec:
 
   
  create the mysql-deploy.yaml file
- example
- mysql-deploy.yaml
+ ==============================
  apiVersion: v1
 kind: Pod
 metadata:
